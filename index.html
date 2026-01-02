@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiniMart | Smart Local Shopping</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="top-header">
+  <div class="logo">🛒 MiniMart</div>
+
+  <nav class="nav-links">
+    <a href="#home" class="nav-link active">Home</a>
+    <a href="#shop" class="nav-link">Shop</a>
+    <a href="#express" class="nav-link">Express Delivery</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+
+  <button class="cart-btn">🧺 Cart <span id="cartCount">0</span></button>
+</header>
+
+<!-- HERO -->
+<!-- HERO -->
+<section id="home" class="hero" style="
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: 
+    linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.2)),
+    url('images/ooo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+">
+  <div class="hero-content">
+    <h1>Your Local Store. Supercharged Online.</h1>
+    <p>Order groceries, essentials and fresh items in minutes.</p>
+    <div class="hero-actions">
+      <button class="btn-primary">Shop Now</button>
+      <button class="btn-secondary">Express Order</button>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section id="shop" class="categories">
+  <h2>Shop by Category</h2>
+
+  <div class="category-grid">
+    <div class="category-card active">🥦 Fresh Food</div>
+    <div class="category-card">🥤 Drinks</div>
+    <div class="category-card">🍞 Bakery</div>
+    <div class="category-card">🧼 Household</div>
+    <div class="category-card">🧴 Personal Care</div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+  <div class="product-card">
+    <img src="images/apple.jpg" alt="Apples">
+    <h3>Fresh Apples</h3>
+    <p>R24.99 / kg</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/milk.jpg" alt="Milk">
+    <h3>Full Cream Milk</h3>
+    <p>R18.99</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/bread.jpg" alt="Bread">
+    <h3>White Bread</h3>
+    <p>R14.50</p>
+    <button>Add to Cart</button>
+  </div>
+</section>
+
+<!-- EXPRESS DELIVERY -->
+<section id="express" class="express">
+  <h2>⚡ Express Delivery</h2>
+  <p>Order now and get your items delivered in under 30 minutes.</p>
+  <button class="btn-primary">Start Express Order</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>Why MiniMart</h2>
+  <p>
+    MiniMart empowers local stores with big brand technology.
+    Physical shops meet online convenience.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<footer id="contact" class="footer">
+  <p>MiniMart © 2025</p>
+  <p>Smart websites that work for you.</p>
+</footer>
+
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
